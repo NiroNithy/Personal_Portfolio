@@ -1,0 +1,51 @@
+.Navbar{
+    height: 5rem;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    max-width: 80rem;
+     
+}
+.header{
+    background-color: rgb(11, 11, 37);
+    color:aliceblue;
+    
+}
+.logo{
+   
+   height: 4rem;
+   width: 4rem;
+}
+
+.menuItem{
+    margin:1.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+   
+}
+.menuItem:hover{
+    border-bottom: 3px solid rgb(255, 219, 88);
+    color: rgb(255, 219, 88);
+    padding-bottom: 0.5rem;
+}
+
+.menubtn{
+    color:rgb(2, 15, 26);
+    background-color: aliceblue;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.menubtn:hover{
+    background-color: rgb(255, 219, 88);
+}
+.menulogo{
+    padding-right: 0.75rem;
+}
