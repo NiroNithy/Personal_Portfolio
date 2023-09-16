@@ -1,0 +1,75 @@
+.content{
+    height: calc(100vh - 5rem);
+    width:100vw;
+    color:aliceblue;
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.Profile{
+    position:absolute;
+    z-index: -1;
+    top:0;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+    width: 50vw; 
+}
+.Intro{
+    height: 100vh;
+    width:100vw;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.hello{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.name{
+    color:rgb(255, 219, 88)
+}
+
+.introContent{
+    font-size: medium;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    
+}
+
+button{
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+    color: rgb(2, 15, 26);
+}
+
+.btnImg{
+    object-fit: cover;
+    height: 3rem; 
+    padding-right: 0.5rem;
+}
+button:hover{
+    background-color: rgb(255, 219, 88);
+}
+
+@media screen and (max-width:800px){
+    .Profile{
+        right: -10vw
+    }
+}
+

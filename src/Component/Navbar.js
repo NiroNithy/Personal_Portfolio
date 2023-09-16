@@ -5,7 +5,7 @@ import {Link} from 'react-scroll';
 import './navbar.css';
 const Navbar = () => {
   return (
-    <div className='header'>
+   
     <nav className='Navbar'>
         <img src={logo} alt='logo' className='logo'/>
         <div className='menu'>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <img src={vector} alt='' className='menulogo'/>Contact me
         </button>
     </nav>
-    </div>
+    
   )
 }
 
