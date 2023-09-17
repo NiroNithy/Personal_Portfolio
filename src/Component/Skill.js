@@ -10,7 +10,7 @@ function Skill() {
         <span className='SkillDesc'>I am skilled passionate UI/UX Designer with experience in creating visually appending and attractive user experience designs. I have a strong understanding of design and a keen eye for detail. I am proflicient in design software such as figma and as well as HTML, CSS and Javascript.</span>
         <div className='SkillBars'>
           <div className='SkillBar'>
-            <img src={UIUX} alt="uiux" className='SkillImg'/>
+            <img src={UIUX} alt="uiux"  className='SkillImg'/>
             <div className='SkillText'>
               <h2>UI/UX Design</h2>
               <p>Create well structured and creative user experience designs using Figma software.</p>
