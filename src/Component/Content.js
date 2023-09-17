@@ -6,7 +6,7 @@ import Job from '../assets/Vector_job.png';
 
 function Content() {
   return (
-    <section className='content'>
+    <section id='content'>
         <div className='Intro'>
              <span className='hello'>Hello!</span>
              <span>I'm <span className='Myname'>Nirosana</span><br/>UI/UX Engineer</span>

@@ -5,7 +5,7 @@ import Mobile from '../assets/mobiledesign.png';
 import '../Component/skill.css';
 function Skill() {
   return (
-    <section className='skills'>
+    <section id='skills'>
         <span className='SkillTitle'>What I do</span><br/>
         <span className='SkillDesc'>I am skilled passionate UI/UX Designer with experience in creating visually appending and attractive user experience designs. I have a strong understanding of design and a keen eye for detail. I am proflicient in design software such as figma and as well as HTML, CSS and Javascript.</span>
         <div className='SkillBars'>

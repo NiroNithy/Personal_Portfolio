@@ -6,7 +6,7 @@ import Linkedln from '../assets/linke.png';
 import Github from '../assets/Git.png';
 const Contact = () => {
   return (
-    <div className='Contact'>
+    <div id='Contact'>
         <h1 className='contactTitle'>Contact Me</h1>
         <span className='conDesc'>Please fill out the form below to discuss any work opportunities.</span>
         <form className='conForm'>
