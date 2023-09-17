@@ -1,0 +1,50 @@
+.Works{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 0 1rem;
+}
+
+.WorkTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.WorkDesc{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+.WorkImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-width: 60rem;
+    flex-wrap: wrap;
+}
+.WorkImg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.75rem;
+    border-radius: 10px;
+}
+.ImgBtn{
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+    color: rgb(2, 15, 26);
+}
