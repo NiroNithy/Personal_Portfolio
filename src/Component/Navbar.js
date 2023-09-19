@@ -23,7 +23,7 @@ const Navbar = () => {
         </button>
         <img src={menu} alt='menu' className='moblogo' onClick={()=>{setShowMenu(!showMenu)}}/>
         <div className='Mobmenu' style={{display:showMenu?'flex':'none'}}>
-           <Link className='listItem' activeClass='active' to='content' spy={true} smooth={true} offset={-90} duration={500} onClick={()=>{setShowMenu(false)}}>Home</Link>
+           <Link  className='listItem' activeClass='active' to='content' spy={true} smooth={true} offset={-90} duration={500} onClick={()=>{setShowMenu(false)}}>Home</Link>
            <Link className='listItem'activeClass='active' to='skills' spy={true} smooth={true} offset={-15} duration={500} onClick={()=>{setShowMenu(false)}}>About</Link>
            <Link className='listItem'activeClass='active' to='Works' spy={true} smooth={true} offset={-50} duration={500} onClick={()=>{setShowMenu(false)}}>Portfolio</Link>
            <Link className='listItem'activeClass='active' to='Contact' spy={true} smooth={true} offset={-20} duration={500} onClick={()=>{setShowMenu(false)}}>Contact</Link>
